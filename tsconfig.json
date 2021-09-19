@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "outDir": "dist",
+        "target": "ESNext",
+        "module": "CommonJS",
+        "inlineSourceMap": true,
+        "skipLibCheck": true,
+        "strict": true
+    },
+    "include": ["src/**/*"]
+}
