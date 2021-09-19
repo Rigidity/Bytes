@@ -2,7 +2,7 @@
 Utilities for manipulating bytes, written in TypeScript.
 
 ## Installation
-`npm install @rigidity/bytes`
+`npm install bytes.ts`
 
 ## Types
 
