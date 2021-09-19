@@ -15,16 +15,16 @@ An exported alias for `BufferEncoding` for completeness.
 ## Functions
 
 ### Utilities
-`concatBytes(...list: Buffer[]): Buffer`
+`concatBytes(...list: Buffer[]): Buffer`  
 
 ### String
-`bytesToString(bytes: Buffer, encoding: Encoding): string`
-`stringToBytes(text: string, encoding: Encoding): Buffer`
+`bytesToString(bytes: Buffer, encoding: Encoding): string`  
+`stringToBytes(text: string, encoding: Encoding): Buffer`  
 
 ### Hex
-`bytesToHex(bytes: Buffer): string`
-`hexToBytes(hex: string): Buffer`
+`bytesToHex(bytes: Buffer): string`  
+`hexToBytes(hex: string): Buffer`  
 
 ### BigInt
-`bytesToInt(bytes: Buffer, endianness: Endianness): bigint`
-`intToBytes(int: bigint, size: number, endianness: Endianness): Buffer`
+`bytesToInt(bytes: Buffer, endianness: Endianness): bigint`  
+`intToBytes(int: bigint, size: number, endianness: Endianness): Buffer`  
