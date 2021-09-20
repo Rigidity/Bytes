@@ -23,11 +23,8 @@ export function bytesToInt(bytes: Buffer, endianness: Endianness): bigint {
     return endianness === 'little' ? toBigIntLE(bytes) : toBigIntBE(bytes);
 }
 
-export function intToBytes(
-    int: bigint,
-    size: number,
-    endianness: Endianness
-): Buffer {
+export function intToBytes(int: bigint, endianness: Endianness): Buffer {
+    const size = Math.ceil(int.toString(16).length / 2);
     return endianness === 'little'
         ? toBufferLE(int, size)
         : toBufferBE(int, size);
